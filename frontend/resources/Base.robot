@@ -14,7 +14,7 @@ Resource    actions/EquipoActions.robot
 
 *Keywords*
 Start Session
-    New Browser          firefox        False    slowMo=00:00:01
+    New Browser          firefox        headless=${headless}    slowMo=00:00:00.05
     New Page             about:blank
     Set Viewport Size    1920           1080
 
